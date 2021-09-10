@@ -44,3 +44,8 @@ section img{
     width: 200px;
     margin:20px;
 }
+.contact-us{
+    background-image: url("/images/c_image.jpg");
+    background-size: cover;
+    height: 480px;
+}
