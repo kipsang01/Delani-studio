@@ -2,6 +2,15 @@
     background-image: url("/images/h_img.jpg");
     background-size: cover;
     color: white;
-    height: 700px;
-    text-align: center;
+    height: 650px;
+}
+.container-fluid{
+    margin-bottom: 50px;
+    padding-top: 15 0px;
+}
+#logo{
+    margin-bottom: 50px;
+}
+#mouse{
+    margin-top: 100px;
 }
