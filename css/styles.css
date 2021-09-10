@@ -2,4 +2,6 @@
     background-image: url("/images/h_img.jpg");
     background-size: cover;
     color: white;
+    height: 700px;
+    text-align: center;
 }
