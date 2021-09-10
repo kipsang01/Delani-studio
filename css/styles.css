@@ -27,3 +27,16 @@ h2{
     margin-top: 30px;
     padding: 100px;
 }
+.text{
+    display: none;
+}
+#design, #development, #management {
+    
+}
+.card{
+    width: auto;
+    height: auto;
+}
+.what-we-do{
+    margin-top: 30px;
+}
