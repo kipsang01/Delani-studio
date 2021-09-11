@@ -43,6 +43,28 @@ section img{
     width: 200px;
     margin:20px;
 }
+.work1{
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+#img1{
+    width: 100%;
+    margin: 0px;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.project-name{
+    width:150px;
+    height:120px;
+    border:1px solid rgb(255, 255, 255);
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    color: white;
+    font-weight: bolder;
+    display: none;
+}
 .contact-us{
     background-image: url("/images/c_image.jpg");
     background-size: cover;
