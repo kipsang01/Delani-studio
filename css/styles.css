@@ -31,12 +31,10 @@ h2{
 .text{
     display: none;
 }
-#design, #development, #management {
-    
-}
 .card{
     width: auto;
     height: auto;
+    border: none;
 }
 .what-we-do{
     margin-top: 30px;
