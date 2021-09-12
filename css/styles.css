@@ -98,6 +98,12 @@ form{
     margin-top: 30px;
     margin-bottom: 10px;
 }
+button{
+    margin: 20px;
+    background-color: rgb(190, 190, 190);
+    color: white;
+    border-radius: 5px;
+}
 .copyright{
     text-align: center;
 }

@@ -26,7 +26,7 @@ $(document).ready(function(){
     $(".contact-us form").submit(function(){
         var name = $("#name").val();
         var email = $("#email").val();
-        $("#popup").text("Thank you "+name +" for contacting us! We shall send you areply to "+ email+" as soon as possible.")
+        /*$("#popup").*/toastr.info("Thank you "+name +" for contacting us! We shall send you areply to "+ email+" as soon as possible.")
         event.preventDefault();
     })
 
