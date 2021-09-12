@@ -41,18 +41,28 @@ h2{
 }
 .work1,.work2,.work3,.work4,.work5,.work6,.work7,.work8{
     position: relative;
-    width: 240px;
+    width: 220px;
     height: 200px;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin: 10px;
+    background-color: black;
 }
 #img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8{
     width: 100%;
+    position: absolute;
     margin: 0px;
     display: block;
     background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
 }
-.project-name{
+#img1:hover{
+    opacity: 0.3;
+    /*width: 90.5%;
+    height: 100%;
+    top: 0;
+    left: 10%;
+    z-index: 1;*/
+}
+.project-name,.project-name1,.project-name2,.project-name3,.project-name4,.project-name5,.project-name6,.project-name7,.project-name8{
     width:150px;
     height:120px;
     border:1px solid rgb(255, 255, 255);
@@ -61,6 +71,7 @@ h2{
     top: 20px;
     color: white;
     font-weight: bolder;
+    z-index: 5;
     display: none;
 }
 .contact-us{
