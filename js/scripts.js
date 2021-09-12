@@ -79,17 +79,15 @@ $(document).ready(function(){
             var fullName = $("#name").val();
             var email = $("#email").val();
             var message=$("#message").val();
-            if (fullName!=null && email!=null && message!=null) {
+            if (fullName!="" && email!="" && message!="") {
                 toastr.info("Thank you "+fullName +" for contacting us! We shall send you areply to "+ email+" as soon as possible.")
-                event.preventDefault(); 
-               
+                event.preventDefault();   
             }
              else {
                 alert("Enter input before sending message")
                 event.preventDefault();
             }
 
-        /*$("#popup").*/
     })
 
 
